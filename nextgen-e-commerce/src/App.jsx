@@ -1,14 +1,16 @@
 
 import './App.css'
+import HomePage from './Pages/HomePage'
+import Header from './components/Header'
+import SearchBar from './components/SearchBar'
 
 function App() {
 
 
   return (
     <>
-    <h1 className='text-3xl font-bold underline'>
-        Hello word!
-    </h1>
+    <Header />
+   <HomePage />
     </>
   )
 }
