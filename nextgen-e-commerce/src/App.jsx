@@ -1,16 +1,17 @@
-
-import './App.css'
+import { BrowserRouter as Router } from "react-router-dom";
+import Header from "./layout/Header";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
-
-
   return (
     <>
-    <h1 className='text-3xl font-bold underline'>
-        Hello word!
-    </h1>
+      <div>
+        <Router>
+          <Header/>
+        </Router>
+      </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
