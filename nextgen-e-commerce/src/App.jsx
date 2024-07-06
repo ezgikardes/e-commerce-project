@@ -1,13 +1,13 @@
 import { BrowserRouter as Router } from "react-router-dom";
-import Header from "./layout/Header";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import HomePage from "./pages/HomePage";
 
 function App() {
   return (
     <>
       <div>
         <Router>
-          <Header/>
+          <HomePage />
         </Router>
       </div>
     </>
