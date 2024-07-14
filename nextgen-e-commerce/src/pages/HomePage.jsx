@@ -1,12 +1,12 @@
 import Footer from "../layout/Footer";
-import Header from "../layout/Header";
-import PageContent from "../layout/PageContent";
+import HeaderCarousel from "../layout/HeaderLayout/HeaderCarousel";
+import PageContent from "../layout/HomePageLayout/PageContent";
 
 export default function HomePage(){
     return(
 
         <div>
-        <Header />
+        <HeaderCarousel/>
         <PageContent />
         <Footer />
         </div>

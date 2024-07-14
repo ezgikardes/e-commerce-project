@@ -1,11 +1,19 @@
-import ProductCover1 from './assets/HomePageAssets/product-cover-1.svg'
-import ProductCover2 from './assets/HomePageAssets/product-cover-2.svg'
-import ProductCover3 from './assets/HomePageAssets/product-cover-3.svg'
-import ProductCover4 from './assets/HomePageAssets/product-cover-4.svg'
-import ProductCover5 from './assets/HomePageAssets/product-cover-5.svg'
-import ProductCover6 from './assets/HomePageAssets/product-cover-6.svg'
-import ProductCover7 from './assets/HomePageAssets/product-cover-7.svg'
-import ProductCover8 from './assets/HomePageAssets/product-cover-8.svg'
+import ProductCover1 from './assets/HomePageAssets/bestsellerassets/product-cover-1.svg'
+import ProductCover2 from './assets/HomePageAssets/bestsellerassets/product-cover-2.svg'
+import ProductCover3 from './assets/HomePageAssets/bestsellerassets/product-cover-3.svg'
+import ProductCover4 from './assets/HomePageAssets/bestsellerassets/product-cover-4.svg'
+import ProductCover5 from './assets/HomePageAssets/bestsellerassets/product-cover-5.svg'
+import ProductCover6 from './assets/HomePageAssets/bestsellerassets/product-cover-6.svg'
+import ProductCover7 from './assets/HomePageAssets/bestsellerassets/product-cover-7.svg'
+import ProductCover8 from './assets/HomePageAssets/bestsellerassets/product-cover-8.svg'
+import pickcard1 from './assets/HomePageAssets/editorspickassets/card-cover-1.svg'
+import pickcard2 from './assets/HomePageAssets/editorspickassets/card-cover-2.svg'
+import pickcard3 from './assets/HomePageAssets/editorspickassets/card-cover-3.svg'
+import pickcard4 from './assets/HomePageAssets/editorspickassets/card-cover-4.svg'
+import BlogImage1 from './assets/HomePageAssets/blogpostassets/blog-post-1.svg'
+import BlogImage2 from './assets/HomePageAssets/blogpostassets/blog-post-2.svg'
+import BlogImage3 from './assets/HomePageAssets/blogpostassets/blog-post-3.svg'
+
 
 export const bestSellerData = {
     products: [
@@ -76,3 +84,58 @@ export const bestSellerData = {
     ]
 }
 
+
+export const editorsPickData = {
+    men: {
+      categoryName: "MEN",
+      imageUrl: pickcard1,
+    },
+  
+    women: {
+      categoryName: "WOMEN",
+      imageUrl: pickcard2,
+    },
+  
+    accessories: {
+      categoryName: "ACCESSORIES",
+      imageUrl: pickcard3,
+    },
+  
+    kids: {
+      categoryName: "KIDS",
+      imageUrl: pickcard4,
+    },
+  };
+
+  export const bottomBlogData = [
+    {
+      title: "Loudest à la Madison #1 (L'intégral)",
+      description: "We focus on ergonomics and meeting you where you work. It’s only a keystroke away.",
+      image: BlogImage1,
+      searchEngine: "Google",
+      category: "Trending",
+      actuality: "New",
+      date: "22 April 2021",
+      comments: 10
+    },
+    {
+      title: "Loudest à la Madison #1 (L'intégral)",
+      description: "We focus on ergonomics and meeting you where you work. It’s only a keystroke away.",
+      image: BlogImage2, 
+      searchEngine: "Google",
+      category: "Trending",
+      actuality: "New",
+      date: "22 April 2021",
+      comments: 10
+    },
+    {
+      title: "Loudest à la Madison #1 (L'intégral)",
+      description: "We focus on ergonomics and meeting you where you work. It’s only a keystroke away.",
+      image: BlogImage3, 
+      searchEngine: "Google",
+      category: "Trending",
+      actuality: "New",
+      date: "22 April 2021",
+      comments: 10
+    }
+  ];
