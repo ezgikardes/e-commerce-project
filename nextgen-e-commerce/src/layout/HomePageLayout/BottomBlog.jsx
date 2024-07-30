@@ -6,10 +6,10 @@ import { bottomBlogData } from '../../data';
 const BottomBlog = () => {
   return (
     <div className='flex flex-col align-items-center'>
-      <div>
-        <h6 className='text-[#737373]'>Practice Advice</h6>
+      <div className='px-56 py-8 text-center'>
+        <h6 className='text-[#a98e8e]'>Practice Advice</h6>
         <h3 className="text-2xl font-bold mb-6 text-[#252B42]">Featured Posts</h3>
-        <p className='text-[#737373]'>
+        <p className='text-[#737373] text-xs md:px-70'>
           Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics
         </p>
       </div>

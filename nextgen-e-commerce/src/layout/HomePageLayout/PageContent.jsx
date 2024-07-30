@@ -1,6 +1,7 @@
 import BestSeller from "./BestSeller";
 import BottomBlog from "./BottomBlog";
 import EditorsPick from "./EditorsPick";
+import FluidContainer from "./FluidContainer";
 import PageCarousel from "./PageCarousel";
 
 export default function PageContent() {
@@ -9,6 +10,7 @@ export default function PageContent() {
             <EditorsPick />
             <BestSeller />
             <PageCarousel />
+            <FluidContainer />
             <BottomBlog />
         </div>
     )
