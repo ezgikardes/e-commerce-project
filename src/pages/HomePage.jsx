@@ -1,4 +1,4 @@
-import Footer from "../layout/Footer";
+
 import HeaderCarousel from "../layout/HeaderLayout/HeaderCarousel";
 import PageContent from "../layout/HomePageLayout/PageContent";
 
@@ -8,7 +8,6 @@ export default function HomePage(){
         <div>
         <HeaderCarousel/>
         <PageContent />
-        <Footer />
         </div>
     )
 }
