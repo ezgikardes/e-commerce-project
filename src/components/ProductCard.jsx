@@ -1,13 +1,12 @@
 import PropTypes from 'prop-types';
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
 
-
-function ProductCard({ image, title, department, originalPrice, discountedPrice, colors }) {
+function ProductCard({ image, title, department, originalPrice, discountedPrice, colors = [] }) {
   return (
     <Link to={"/detail"} className="flex flex-col">
-      <img src={image} alt={title} className="object-contain w-full h-70" />
+      <img src={image} alt={title} className="object-contain w-full h-72" />
       <div className="flex flex-col gap-2 items-center">
-        <h5 className="font-semibold mt-5">{title}</h5>
+        <h5 className="font-semibold mt-3">{title}</h5>
         <span className="text-[#737373] text-sm font-semibold">{department}</span>
         <div className="flex gap-2">
           <span className="text-[#BDBDBD] font-semibold line-through">${originalPrice}</span>
@@ -29,7 +28,7 @@ ProductCard.propTypes = {
   department: PropTypes.string.isRequired,
   originalPrice: PropTypes.number.isRequired,
   discountedPrice: PropTypes.number.isRequired,
-  colors: PropTypes.arrayOf(PropTypes.string).isRequired,
+  colors: PropTypes.arrayOf(PropTypes.string),
 };
 
 export default ProductCard;

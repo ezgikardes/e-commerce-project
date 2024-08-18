@@ -6,7 +6,10 @@ import React from "react";
 const Breadcrumbs = () => {
     return (
         <div>
-            <nav className=" px-5 py-3 w-full">
+            <div>
+                
+            </div>
+            <nav className="py-3 w-full">
                 <a href="/" className="text-[#252B42] font-bold">
                     Home
                 </a>

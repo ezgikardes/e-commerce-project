@@ -28,8 +28,8 @@ export default function NavBar() {
 
                     <nav className={`md:flex ${isOpen ? 'block' : 'hidden'}`}>
                         <ul className="flex flex-col md:flex-row md:space-x-4 mt-2">
-                            <li><a href="#" className="block text-[#737373] text-[14px]">Home</a></li>
-                            <li><a href="#" className="block text-[#737373] text-[14px]">Shop<FontAwesomeIcon icon={faChevronDown} /></a></li>
+                            <li><a href="/" className="block text-[#737373] text-[14px]">Home</a></li>
+                            <li><a href="/shop" className="block text-[#737373] text-[14px]">Shop<FontAwesomeIcon icon={faChevronDown} /></a></li>
                             <li><a href="#" className="block text-[#737373] text-[14px]">About</a></li>
                             <li><a href="#" className="block text-[#737373] text-[14px]">Blog</a></li>
                             <li><a href="#" className="block text-[#737373] text-[14px]">Contact</a></li>
