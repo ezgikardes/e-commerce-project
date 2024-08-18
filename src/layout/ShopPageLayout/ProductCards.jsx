@@ -41,7 +41,7 @@ export default function ProductCards({ selectedCategory }) {
           />
         ))}
       </div>
-      <div className="flex justify-between mt-4">
+      <div className="flex justify-center mt-4">
         <button onClick={handlePreviousPage} disabled={currentPage === 1}>
           Previous
         </button>
