@@ -1,11 +1,11 @@
 import { useHistory } from 'react-router-dom';
 
-export default function Categories({ categoriesData, onCategorySelect }) {
+export default function Categories({ categoriesData, handleCategorySelect }) {
     const history = useHistory();
 
     const handleCategoryClick = (categoryId) => {
-        if (onCategorySelect) {
-            onCategorySelect(categoryId);
+        if (handleCategorySelect) {
+            handleCategorySelect(categoryId);
         }
         history.replace(`/shop/${categoryId}`);
     };
