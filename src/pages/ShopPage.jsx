@@ -16,7 +16,7 @@ export default function ShopPage() {
     return (
         <div>
             <Breadcrumbs />
-            <Categories categoriesData={categoriesData} onCategorySelect={handleCategorySelect} />
+            <Categories categoriesData={categoriesData} handleCategorySelect={handleCategorySelect} />
             <ProductsFilter />
             <ProductCards selectedCategory={selectedCategory} />
         </div>

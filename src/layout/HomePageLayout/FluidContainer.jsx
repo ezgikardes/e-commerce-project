@@ -1,4 +1,5 @@
 import fluidContainerHero from "../../assets/HomePageAssets/fluidcontainerassets/fluid-container-hero.svg";
+import Button from "../../components/Button";
 
 export default function FluidContainer() {
     return (
@@ -13,6 +14,8 @@ export default function FluidContainer() {
                 <div className="flex flex-col lg:flex-row space-y-4 lg:space-y-0 lg:space-x-4">
                     <button className="bg-[#2DC071] text-white px-4 py-2 rounded">BUY NOW</button>
                     <button className="text-[#2DC071] border-2 border-[#2DC071] px-4 py-2 rounded">READ MORE</button>
+                    <Button>BUY NOW</Button>
+                    <Button variant={"outline"}>READ MORE</Button>
                 </div>
             </div>
         </div>
